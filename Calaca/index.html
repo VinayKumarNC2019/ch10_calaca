@@ -31,6 +31,8 @@
       <h2>{{result.target.repository}}</h2>
       <p>{{result.action}}</p>
       <p>{{result.timestamp}}</p>
+      <h3 style="font-weight: bold; margin-top: 1em;">Raw Event:</h3>
+      <pre>{{result | json}}</pre>
     </article>
   </section>
   <section class='pagination-controls'>
